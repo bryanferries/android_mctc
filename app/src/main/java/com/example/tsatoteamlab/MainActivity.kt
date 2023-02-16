@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
-
+// Testing Android Studio
     private fun chooseRandom() {
 
         val randomChoice = listOf("heads", "tails").random()
