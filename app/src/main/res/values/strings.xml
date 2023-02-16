@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TSA to Team Lab</string>
+    <string name="click">Click</string>
+    <string name="text_view_1_resource">Team A</string>
+    <string name="text_view_2">Team B</string>
+    <string name="edit_text_resource"></string>
+    <string name="random_result_here">** Click the Button For a Random **
+***  Result Between the Teams!  ***</string>
+    <string name="enter_a_team_here">Enter a team here:</string>
+    <string name="toast_error_string">Enter a team in each blank!</string>
+</resources>
