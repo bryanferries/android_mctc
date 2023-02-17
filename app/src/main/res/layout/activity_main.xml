@@ -11,46 +11,34 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/random_result_here"
-        app:layout_constraintBottom_toTopOf="@+id/edit_text"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="86dp" />
 
     <Button
         android:id="@+id/click_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="88dp"
         android:text="@string/click"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/edit_text2" />
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="430dp" />
 
     <TextView
         android:id="@+id/text_view_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/text_view_1_resource"
-        app:layout_constraintBaseline_toBaselineOf="@+id/edit_text"
         app:layout_constraintEnd_toStartOf="@+id/edit_text"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintHorizontal_chainStyle="packed"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="223dp" />
 
     <TextView
         android:id="@+id/text_view_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/text_view_2"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/edit_text2"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintHorizontal_chainStyle="packed"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.5" />
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="356dp" />
 
     <EditText
         android:id="@+id/edit_text"
@@ -61,11 +49,10 @@
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:text="@string/edit_text_resource"
-        app:layout_constraintBottom_toTopOf="@+id/edit_text2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/text_view_1"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        tools:layout_editor_absoluteY="208dp" />
 
     <EditText
         android:id="@+id/edit_text2"
@@ -76,12 +63,8 @@
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:text="@string/edit_text_resource"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/text_view_2"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.5"
-        tools:ignore="SpeakableTextPresentCheck" />
+        tools:ignore="SpeakableTextPresentCheck"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="356dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
